@@ -6,5 +6,13 @@
 
 To achieve this, I have created different steps to build the final model.
 
+1. Define and Understand the Problem Statement
+2. Data Gathering or Data Collection
+3. Data Cleaning 
+4. EDA like Feature Scaling, Feature Selection
+5. Data Modeling
+6. Model Evaluation
+7. Model Deployment
+
 ### To know more about this project, read my article below:
 
