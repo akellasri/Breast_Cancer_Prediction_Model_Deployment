@@ -12,7 +12,7 @@ To achieve this, I have created different steps to build the final model.
 4. EDA like Feature Scaling, Feature Selection
 5. Data Modeling
 6. Model Evaluation
-7. Model Deployment
+7. Model Deployment (done using Heroku Cloud Application)
 
 ### To know more about this project, read my article below:
 
