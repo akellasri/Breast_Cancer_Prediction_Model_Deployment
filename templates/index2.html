@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML_Application</title>
+    <link rel="stylesheet" type="text/css" href="static/main.css">
+</head>
+  
+<body>
+    <div class="nav">
+        <div class="logo">
+            <a href="index1.html">Breast Cancer</a>
+            <img class="primary-icon" src="static/steth.png">
+            <ul>
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="#">Predict</a></li>
+                <li><a href="index1.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="results">
+        <div class="left_result">
+            <h2>BREAST CANCER PREDICTION USING MACHINE LEARNING MODEL</h2> <br>
+            <h3>(END TO END DEPLOYMENT)</h3> <br>
+            <h3>PREDICTION RESULTS:</h3>
+
+            {%if data==0 %}
+            <h4>The Patient has Benign Breast Cancer with the class value 0</h4>
+
+            {%else%}
+            <h4>The Patient has Malignant Breast Cancer with the class value 1</h4>
+
+            {%endif%}
+
+        </div>
+      
+        <div class="right_result">
+            {%if data==0 %}
+            <img class="benign" src="static/benign.png">
+
+            {%else%}
+            <img class="malignant" src="static/malignant.png">
+
+            {%endif%}
+        </div>                  
+    </div>
+  
+</body>
+  
+</html>
