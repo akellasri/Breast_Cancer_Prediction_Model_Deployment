@@ -14,5 +14,13 @@ To achieve this, I have created different steps to build the final model.
 6. Model Evaluation
 7. Model Deployment (done using Heroku Cloud Application)
 
+#### Project Dependencies
+
+1. Anaconda - Jupyter Notebook
+2. Python
+3. Flask- Web Framework 
+4. Pickle File (Backened)
+5. Heroku (Cloud Platform to Deploy)
+
 #### To know more about this project, read my article below:
 
