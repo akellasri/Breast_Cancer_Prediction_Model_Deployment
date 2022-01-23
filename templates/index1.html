@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Application</title>
+    <link rel="stylesheet" type="text/css" href="static/main.css">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="nav">
+        <div class="logo">
+            <a href="index1.html">Breast Cancer</a>
+            <img class="primary-icon" src="static/steth.png">
+            <ul>
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="#">Predict</a></li>
+                <li><a href="index1.html">Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="banner">
+        <div class="left-column">
+
+            <h3>BREAST CANCER PREDICTION USING MACHINE LEARNING MODEL</h3> <br> <h2>(END TO END DEPLOYMENT)</h2>
+            <p>
+                To predict whether the breast cancer is malignant or benign, a Logistic <br /> <br />
+                Regression model is created after scaling the features using various techniques <br /> <br />
+                & considered 10 features out of it. To classify each patient, users must fill <br /> <br /> 
+                the data within the given range and submit the form to get the results.
+            </p>
+
+            <div class="developed_by">
+                <h5>DEVELOPED BY VENKATA SRIHARSHA AKELLA</h5> <br />
+
+                <!-- Add font awesome icons -->
+                <a href="https://www.linkedin.com/in/venkatasriharshaakella/" class="fa fa-linkedin"></a>
+                <a href="https://github.com/akellasri" class="fa fa-github"></a>
+                <a href="https://www.instagram.com/sriharsha1192/?hl=en" class="fa fa-instagram"></a>
+                <a href="https://www.facebook.com/sri.harsha.3114" class="fa fa-facebook"></a>
+
+            </div>
+
+        </div>
+        <div class="right-column">
+            <h4>ENTER FIELD VALUES</h4><br />
+
+            <form action="/index2.html" method="post">
+                <label for="texture_mean">Texture Mean:</label>
+                <input type="text" name="texture_mean" placeholder="Value Range: 9.71 - 33.81" required="required" /> <br /> 
+                <label for="area_mean">Area Mean:</label>
+                <input type="text" name="area_mean" placeholder="Value Range: 181.0 - 2501.0" required="required" /> <br />
+                <label for="smoothness_mean">Smoothness Mean:</label>
+                <input type="text" name="smoothness_mean" placeholder="Value Range: 0.05 - 0.16" required="required" /> <br />
+                <label for="concavity_mean">Concavity Mean:</label>
+                <input type="text" name="concavity_mean" placeholder="Value Range: 0.0 - 0.4" required="required" /> <br />
+                <label for="texture_se">Texture SE:</label>
+                <input type="text" name="texture_se" placeholder="Value Range: 0.36 - 4.89" required="required" /> <br />
+                <label for="area_se">Area SE:</label>
+                <input type="text" name="area_se" placeholder="Value Range: 6.80 - 542.2" required="required" /> <br />
+                <label for="texture_worst">Texture Worst:</label>
+                <input type="text" name="texture_worst" placeholder="Value Range: 12.0 - 49.5" required="required" /> <br />
+                <label for="smoothness_worst">Smoothness Worst:</label>
+                <input type="text" name="smoothness_worst" placeholder="Value Range: 0.07 - 0.22" required="required" /> <br />
+                <label for="compactness_worst">Compactness Worst:</label>
+                <input type="text" name="compactness_worst" placeholder="Value Range: 0.03 - 0.94" required="required" /> <br />
+                <label for="symmetry_worst">Symmetry Worst:</label>
+                <input type="text" name="symmetry_worst" placeholder="Value Range: 0.16 - 0.58" required="required" /> <br />
+
+                <input type="submit" class="btn btn_primary" value="Predict">
+            </form>
+
+        </div>
+
+    </div>
+
+
+    
+
+</body>
+
+</html>
+
+
+    
