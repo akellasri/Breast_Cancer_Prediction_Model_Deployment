@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav {
+    background-color: darkcyan;
+    width: 100%;
+    margin: auto; 
+    display: flex;
+}
+
+.nav a:hover {
+    color: darkblue;
+}
+
+
+.logo {
+    
+    color: black;
+    font-size: 30px;
+    align-items: center;
+    margin: 18px;
+    margin-left: 25px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.primary-icon {
+    height: 28px;
+
+}
+
+
+.logo ul {
+    color: black;
+    float: right;
+    margin-left: 1000px;
+    padding-bottom: 0px;
+  
+}
+
+.logo ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.logo ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    background: url("doct1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    position: fixed;
+}
+
+
+.banner {
+    display: flex;
+    margin-top: 80px;
+}
+
+.left-column {
+    flex-basis: 50%;
+}
+
+.right-column {
+    flex-basis: 28%;
+    text-align: center;
+    padding: 35px 35px;
+    padding-left: 0px;
+    background-color: darkcyan;
+    margin: auto;
+    margin-left: 115px;
+}
+
+
+.left-column {
+    display: inline-block;
+    margin: 0px 45px;
+}
+
+    .left-column h3 {
+        font-size: 22px;
+        margin-bottom: -5px;       
+        text-align: left;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .left-column h2 {
+        text-align: center;
+        padding-right: 125px;
+        margin-bottom: 10px;
+    }
+
+.left-column p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 65px;
+    color: black;
+    text-align: justify;
+}
+
+.right-column h4 {
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+.right-column form {
+    padding: 10px 30px;
+    
+}
+
+.right-column label {
+   display: inline-block;
+   margin-bottom: 20px;
+   width: 150px;
+   text-align: right;
+}
+
+.right-column input {
+    padding: 5px 10px;
+    width: 180px;
+    border: hidden;
+    clear: both;
+}
+
+input[type=submit] {
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 270px;
+    text-align: center;
+    display: inline-block;
+    outline: solid;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+}
+
+    .developed_by {
+        text-align: center;
+        margin-top: 220px;
+        background-color: darkcyan;
+        font-size: 20px;
+        padding: 8px 0;
+    }
+
+.h5 {
+    font-size: medium;
+      
+}
+
+.fa {
+    font-size: medium;
+    width: 30px;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 100;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    height: 18.5px;
+    width: 17.5px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding-top: 2px;
+    width: 25px;
+}
+
+.results {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 35px;       
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.results {
+    display: flex;
+    margin-top: 80px;
+}
+
+.left_result {
+    flex-basis: 50%;
+    padding-left: 15px;
+}
+
+.left_result h3 {
+    margin-bottom: 30px;
+}
+
+.left_result h4 {
+    color:rgb(223, 14, 14);
+}
+
+.right_result {
+    flex-basis: 50%;
+}
+
+.right_result img    {
+    padding-left: 35px;
+    width: 50%;
+    height: 80%;
+}
