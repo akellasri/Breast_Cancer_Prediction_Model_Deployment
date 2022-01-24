@@ -18,7 +18,7 @@ model = pickle.load(open("model.pkl", "rb"))
 
 # use the route() decorator to tell Flask what URL should trigger our function.
 # argument here is pattern of url 
-@app.route("/index1.html")
+@app.route("/")
 def home():
     return render_template("index1.html")
 
