@@ -1,4 +1,4 @@
-# To predict whether the Breast Cancer is benign or malignant, a Machine Learning Model is built On Web Application Using the Breast Cancer Wisconson Data Set.
+# To predict whether the Breast Cancer is benign or malignant, a Machine Learning Model is built On Web Application Using the Breast Cancer Wisconsin Data Set.
 
 ### Problem Statement:
 
