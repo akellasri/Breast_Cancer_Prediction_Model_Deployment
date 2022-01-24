@@ -24,3 +24,8 @@ To achieve this, I have created different steps to build the final model.
 
 #### To know more about this project, read my article below:
 
+
+#### To view the web based ML application, here is the link:
+
+https://breastcancerprediction-webapp.herokuapp.com/
+
